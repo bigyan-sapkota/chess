@@ -61,7 +61,7 @@ io.on("connection", function (uniquesocket) {
       }
     } catch (error) {
       console.log(error);
-      uniquesocket.emit("Invalid move : ", movae);
+      uniquesocket.emit("Invalid move : ", move);
     }
   });
 });
